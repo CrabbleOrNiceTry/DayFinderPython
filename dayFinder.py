@@ -7,7 +7,6 @@ def useBigBrainToCalculateTheDay(year, month, day):
     if year % 4 == 0:
         months[1] = 29
     for i in range(month):
-        
         totalDaysPassed += months[i]
     totalDaysPassed += day
     dayNumber = (int) (totalDaysPassed % 7)
